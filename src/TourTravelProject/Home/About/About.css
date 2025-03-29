@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    width: 100%;
+    height:100vh;
+    padding:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.about::after {
+    position: absolute;
+    top: 15%;
+    left: 57%;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #8686ac;
+}
+
+.about .left {
+
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+
+.about .left .info {
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .left .info .info-content {
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 320px;
+    background: #0f0e47;
+    border: 10px solid white;
+}
+.about .left .info .info-content h1{
+    padding:30px;
+    font-family:'Roboto Slab', serif;
+    font-size:40px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    font-weight:200;
+}
+.about .left .info .info-content a{
+    width:50px;
+    height:50px;
+    font-size:20px;
+    color:white;
+    background: #8686ac;
+    padding:10px;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    margin:50px;
+}
+.about .left .info .info-content a:hover{
+    cursor: pointer;
+    background:#505081;
+    color:#0f0e47;
+}
+.about .left .info .upper-img {
+    width: 320px;
+    height: 270px;
+    box-sizing: border-box;
+    
+
+}
+
+.about .left .info .upper-img img {
+    width: 320px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.about .left .bottom-img {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.about .left .bottom-img .img1 img {
+    width: 250px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+   
+}
+
+.about .left .bottom-img .right-img img {
+    width: 330px;
+    height: 250px;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.about .right {
+    margin-left:9px;
+    padding: 25px 35px;
+}
+
+.about .right .about-p {
+    letter-spacing: 2px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #5f5f5f;
+}
+
+.about .right h1 {
+    position: relative;
+    bottom: 20px;
+    color: #29292c;
+    margin: 20px 10px;
+    font-size: 35px;
+}
+
+.about .right h1 span {
+    color: #8686ac;
+    margin-left: 10px;
+}
+
+.about .right .para-2 {
+    width: 500px;
+    margin-left: 60px;
+    text-align: justify;
+    line-height: 22px;
+}
+.about .right .btn a {
+    width:70px;
+    padding:20px;
+    text-decoration: none;
+    background:#0f0e47;
+    color:white;
+    margin-left: 10%;
+    border-radius:2px;
+   
+}
+.about .right .btn a:hover{
+    background:#8686ac;
+    color:#0f0e47;
+}

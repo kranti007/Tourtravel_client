@@ -1,0 +1,120 @@
+.destination{
+    margin-top: 500px;
+     width:100%;
+     padding:50px 0;
+     
+ }
+ .destination::after{
+     position: absolute;
+     top: 271%;
+     left: 31%;
+     content: '';
+     width: 100px;
+     height: 4px;
+     background: #8686ac;
+ 
+ }
+ .destination p{
+     font-size:20px;
+     margin-bottom:20px;
+     text-align: center;
+     color:#8686ac;
+     
+ }
+ .destination h1{
+     align-items: center;
+     font-size:55px;
+     font-weight: 600;
+     font-family:  'Roboto Slab', serif;
+     justify-content: center;
+     display: flex;
+     margin-bottom:20px;
+     color:#29292c;
+ 
+ }
+ .destination h1 span{
+     color:#8686ac;
+     margin-left:15px;
+ } 
+ 
+ 
+ .destination .card-box{
+     width:92%;
+     margin:10px auto;
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap:10px ;
+ }
+ .destination .card-box .card-img{
+     align-items:center;
+     justify-content: center;
+     display:flex;
+     background:#29292c;
+ 
+ }
+ .destination .card-box .card-img  img{
+     width:100%;
+     transition:0.3s;
+ }
+ .destination .card-box .card-img:hover img{
+     opacity:0.4;
+ }
+ .destination .card-box .card-img h2{
+     position:absolute;
+     font-size:35px;
+     margin-bottom:130px;
+     color:#fac031;
+     font-family:polo;
+     z-index:5;
+     opacity: 0;
+     transition:0.3s;
+ }
+ .destination .card-box .card-img:hover h2{
+     opacity:1;
+ }
+ .destination .card-box .card-img p {
+     position: absolute;
+     width: 400px;
+     margin-top: 30px;
+     text-align: center;
+     color: white;
+     line-height: 22px;
+     opacity: 0;
+     z-index: 5;
+     transition: 0.3s;
+ }
+ .destination .card-box .card-img:hover p{
+     opacity:1;
+ }
+ .destination .card-box .card-img .destiny-btn{
+     position: absolute;
+     margin-top: 100px;
+     color:#29292c;
+     background: #fac031;
+     padding: 7px 25px;
+     text-decoration: none;
+     opacity: 0;
+     transform: translateY(45px);
+     z-index: 5;
+     transition: 0.3s;
+ }
+ 
+ .destination .card-box .card-img:hover .destiny-btn{
+     opacity: 1;
+     transition: translateY(0);
+ }
+ .destination .btn a{
+     width:60px;
+     padding:20px;
+     text-align: end;
+     align-items: center;
+     text-decoration: none;
+     position: relative;
+    margin-left:50%;
+     color:white;
+     background:#0f0e47;
+ }
+ .destination .btn a:hover{
+     color:#0f0e47;
+     background:#8686ac;
+ }

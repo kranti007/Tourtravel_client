@@ -1,0 +1,234 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+/* .packages-container {
+    padding: 70px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  
+} */
+.container {
+    background:#0f0e47;
+    padding: 70px 20px;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    
+  }
+
+/* Title Styling */
+.packages-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #8686ac;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Packages List */
+.packages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Individual Package Card */
+.packages-card {
+    background: linear-gradient(to bottom, #fff, #f8f9fa);
+    border-radius: 12px;
+    width: 320px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.packages-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Image Styling */
+.packages-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 3px solid #ffa726;
+}
+
+/* Package Details */
+.packages-details {
+    padding: 5px;
+}
+
+.packages-details h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.packages-description {
+    font-size: 1rem;
+    color: #8686ac;
+    min-height: 60px;
+}
+
+/* Price */
+.packages-price {
+    
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #d35400;
+    margin: 12px 0;
+}
+
+/* Details Link Button */
+.details-link {
+    display: inline-block;
+    
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+.details-link:hover {
+    background: #8686ac;
+}
+
+/* Package Details Page */
+.packages-detail-container {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.packages-detail-image {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.packages-city {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    margin-top: 10px;
+}
+
+.packages-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0f0e47;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background: #8686ac;
+}
+
+/* Dropdown for City Selection */
+.dropdown-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.dropdown-container label {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #555;
+
+}
+
+.dropdown-container select {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dropdown-container select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* No Data Message */
+.no-data {
+    font-size: 1.3rem;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Loading & Error Messages */
+.loading {
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.error {
+    font-size: 1.3rem;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .packages-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .package-card {
+        width: 90%;
+    }
+
+    .packages-detail-container {
+        width: 95%;
+    }
+}

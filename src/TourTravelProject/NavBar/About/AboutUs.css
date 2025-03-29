@@ -1,0 +1,390 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.aboutus{
+    width:100%;
+    height:100vh;
+}
+
+.img1-container img{
+    background:#0f0e47;
+    margin-top:60px;
+    width:100%;
+    height:250px;
+    object-fit: cover;
+    object-position: center;
+}
+.para-1{
+    width:100%;
+    height:80vh;
+    padding:25px 35px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    text-align:center;
+    position: relative;
+    justify-content: center;
+}
+.para-1::after{
+    content:'';
+    display:block;
+    width:100px;
+    height:4px;
+    position: absolute;
+    background:#8686ac;
+    top:5%;
+    left:45%;
+}
+.para-1 p{
+    margin-top:10px;
+    font-size:1rem;
+    letter-spacing: 1px;
+    font-family:'Roboto Slab', serif;
+    color:#8686ac;
+}
+.para-1 h1{
+    margin-top:20px; 
+    font-size:4.2rem;
+    font-weight: 800;
+
+}
+.para-1 h1 span{
+    color:#8686ac;
+}
+.para-1 h2{
+    font-size:2rem;
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+   color:#8686ac;
+   line-height:35px;
+   letter-spacing: 2px;
+    margin-top:30px;
+    
+}
+.para-1   h2 span{
+    color:#272751;
+    font-weight: 600;
+}
+.para-1 h6{
+    width:85%;
+    font-size:1.25rem;
+    font-weight: 500;
+    font-family:'Roboto Slab', serif;
+    line-height:30px;
+    letter-spacing: 2px;
+    margin-top:30px;
+    
+
+}
+/********* CARDS SECTION **************/
+
+.cards{
+    width:100%;
+    padding:40px;
+    
+    
+}
+.card-detail{
+    width:90%;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin:auto;
+    display:flex;
+}
+.card1{
+    width:300px;
+    height:300px;
+    background:#0f0e47;
+    box-shadow:2px 8px 5px 2px  rgba(0,0,0,0.5);
+
+}
+.card1:hover{
+    background:#8686ac;
+    transform: scale(1.1);
+}
+.card1 h1{
+    font-size:1.8rem;
+    color:white;
+    padding:25px;
+    text-align: center;
+}
+.card1 p{
+    padding:30px;
+    color:white;
+    font-size:1.25rem;
+    text-align: center;
+}
+
+/********************* travel image section ***************/
+
+.tour-img{
+    width:100%;
+    height:700px;
+    display:flex;
+    align-items:center;
+    margin-top:30px;
+    justify-content: center;
+}
+.tour-img img{
+    display:block;
+    max-width:100%;
+    height:auto;
+    
+}
+
+/**********************  mision vision section **************/
+.mision{
+    width:100%;
+    padding:40px;
+    background: #f0f0f0;
+    position: relative;
+}
+.mision::after{
+    content: '';
+    width:100px;
+    height:4px;
+    top: 8%;
+    left:38%;
+    position:absolute;
+    background:#8686ac;
+}
+.mision h3{
+    text-align:center;
+    margin-top:30px;
+    font-size:1.25rem;
+    font-weight: 600;
+    color:#8686ac;
+}
+.mision h1{
+    font-size:3.5rem;
+    font-weight:600;
+    text-align: center;
+    margin-top:30px;
+    font-family:'Roboto Slab', serif ;
+}
+.mision h1 span{
+    color:#8686ac;
+    font-weight:700;
+}
+.mision .cards2 {
+    display:flex;
+    width:90%;
+    margin:50px;
+    
+}
+.mision .cards2 .img2{
+    width:400px;
+    height:250px;
+    left:20%;
+    box-shadow: 2px 5px 8px 2px;
+    position: relative;
+    
+}
+.mision .cards2 .img2 img{
+    width:100%;
+    height:100%;
+}
+.mision .cards2 .img-info{
+    width:400px;
+    height:200px;
+    padding:30px;
+    position: absolute;
+    box-shadow: 2px 5px 8px 2px;
+    margin-top:25px;
+    left:40%;
+    background: #8686ac;
+}
+.mision .cards2 .img-info  h4,.mision .cards2 .img-info2  h4{
+    font-size:1.25rem;
+    color:#272781;
+    font-weight: 500;
+}
+.mision .cards2 .img-info  h2, .mision .cards2 .img-info2  h2{
+    font-size:2.2rem;
+    font-weight:600;
+    margin-top:5px;
+}
+.mision .cards2 .img-info p{
+    font-size:1rem;
+    font-weight:400;
+    margin-top:10px;
+    letter-spacing: 2px;
+    color:#272781;
+}
+
+/** Card 3 **/
+.mision .cards2 .img3{
+    margin:60px;
+    width:400px;
+    height:250px;
+    left:50%;
+    box-shadow: 2px 5px 8px 2px;
+    position: relative;
+}
+.mision .cards2 .img3 img{
+    width:400px;
+    height:250px;
+}
+.mision .cards2 .img-info2{
+    width:400px;
+    height:200px;
+    padding:30px;
+    position: absolute;
+    box-shadow: 2px 5px 8px 2px;
+    margin-top:80px;
+    left:30%;
+    background: #8686ac;
+}
+.mision .cards2 .img-info2 p{
+    font-size:1rem;
+    font-weight:400;
+    margin-top:10px;
+    letter-spacing: 2px;
+    justify-content: center;
+    color:#272781;
+}
+@media (max-width:1024px){
+    .img1-container img{
+        width:80%;
+    }
+    .para-1{
+        margin-top:50px;
+    }
+    .para-1 h1{
+        font-size:50px;
+    }
+    .para-1 h2{
+        font-size:24px;
+    }
+    .para-1 h6{
+        font-size:18px;
+        margin-left:50px;
+    }
+    
+    .card1{
+        width:45%;
+        margin-top:3rem;
+    }
+    .tour-img img{
+        width:80%;
+    }
+    .mission h1{
+        font-size: 50px;
+    }
+    .mision .cards2 .img2{
+        width: 70%;
+        left:0;
+    }
+    .mision .cards2 .img-info {
+        width: 50%;
+    }
+    .mision .cards2 .img3 {
+        width:70%;
+        left:25%;
+        
+    }
+    .mision .cards2 .img-info2 {
+        width: 50%;
+        left:15%;
+    }
+}
+@media (max-width: 768px) {
+    .img1-container img{
+        width:100%;
+    }
+    .para-1{
+        margin-top:50px;
+    }
+    .para-1 h1 {
+        font-size: 40px;
+    }
+
+    .para-1 h2 {
+        font-size: 20px;
+    }
+
+    .para-1 h6 {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .card1 {
+        width: 80%;
+        margin-top:3rem;
+    }
+
+    .tour-img img {
+        width: 100%;
+    }
+
+    .mision h1 {
+        font-size: 40px;
+    }
+
+    .mision .cards2 .img2{
+        width: 70%;
+        left:0;
+    }
+
+    .mision .cards2 .img-info {
+        width: 50%;
+    }
+    .mision .cards2 .img3 {
+        width:70%;
+        left:25%;
+        
+    }
+    .mision .cards2 .img-info2 {
+        width: 50%;
+        left:15%;
+    }
+}
+@media (max-width: 480px) {
+    .img1-container img{
+        width:80%;
+    }
+    .para-1{
+        margin-top:30%;
+    }
+    .para-1 h1 {
+        font-size: 35px;
+    }
+
+    .para-1 h2 {
+        font-size: 18px;
+    }
+
+    .para-1 h6 {
+        font-size: 14px;
+    }
+
+    .card1 {
+        width:100%;
+        margin-top:50%;
+    }
+
+    .tour-img img {
+        width: 100%;
+    }
+    .mision h1 {
+        font-size: 35px;
+    }
+    .mision .cards2 .img2 img{
+        width: 100%;
+    }
+
+    .mision .cards2 .img-info {
+        width: 50%;
+   
+    }
+    .mision .cards2 .img3 img {
+        width:100%;
+
+    }
+    .mision .cards2 .img-info2 {
+        width: 50%;
+        left:5%;
+    }
+}

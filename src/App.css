@@ -1,38 +1,177 @@
-.App {
+/* Global Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Dropdown */
+.dropdown-container {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dropdown-container label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #e74c3c;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Loading & Error */
+.loading {
+  color: #e67e22;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Restaurant List */
+.packages-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Restaurant Card */
+.packages-card {
+  width: 300px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-left: 5px solid #e74c3c;
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.packages-card:hover {
+  transform: scale(1.05);
+}
+
+/* Restaurant Image */
+.packages-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Restaurant Details */
+.packages-details {
+  padding: 10px;
+}
+
+.packages-details h2 {
+  color: #333;
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.packages-details p {
+  font-size: 16px;
+  color: #777;
+  margin: 0;
+}
+
+/* No Data */
+.no-data {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Restaurant Details Page */
+.packages-detail-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.packages-title {
+  font-size: 26px;
+  color: #e74c3c;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.packages-detail-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 15px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.packages-city {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.packages-description {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Back Button */
+.back-button {
+  background: #e74c3c;
   color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.back-button:hover {
+  background: #c0392b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
