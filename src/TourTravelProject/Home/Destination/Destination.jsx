@@ -27,7 +27,7 @@ const Destination = () => {
 
                         <p className="p-head"> Lorem ipsum dolor sit amet.</p>
 
-                        <a href="#" className="destiny-btn"> Book Now</a>
+                        <a href="/k" className="destiny-btn"> Book Now</a>
                     </div>
 
 
@@ -39,7 +39,7 @@ const Destination = () => {
 
                         <p className="p-head"> Lorem ipsum dolor sit amet.</p>
 
-                        <a href="#" className="destiny-btn"> Book Now</a>
+                        <a href="/k" className="destiny-btn"> Book Now</a>
                     </div>
 
 
@@ -50,7 +50,7 @@ const Destination = () => {
 
                         <p className="p-head"> Lorem ipsum dolor sit amet.</p>
 
-                        <a href="#" className="destiny-btn"> Book Now</a>
+                        <a href="/k" className="destiny-btn"> Book Now</a>
                     </div>
 
 
@@ -62,7 +62,7 @@ const Destination = () => {
 
                         <p className="p-head"> Lorem ipsum dolor sit amet.</p>
 
-                        <a href="#" className="destiny-btn"> Book Now</a>
+                        <a href="/k" className="destiny-btn"> Book Now</a>
                     </div>
 
                     <div className="card-img">
@@ -72,7 +72,7 @@ const Destination = () => {
 
                         <p className="p-head"> Lorem ipsum dolor sit amet.</p>
 
-                        <a href="#" className="destiny-btn"> Book Now</a>
+                        <a href="/k" className="destiny-btn"> Book Now</a>
                     </div>
 
                     <div className="card-img">
@@ -82,7 +82,7 @@ const Destination = () => {
 
                         <p className="p-head"> Lorem ipsum dolor sit amet.</p>
 
-                        <a href="#" className="destiny-btn"> Book Now</a>
+                        <a href="/k" className="destiny-btn"> Book Now</a>
                     </div>
 
                 </div>
