@@ -25,7 +25,7 @@ const Footer = () =>{
                    
                             <p>1800180020</p>
                             <div className="btn">
-                                <a href="./" >
+                                <a href="./Contact Us" >
                                     Contact Us
                                 </a>
                             </div>
